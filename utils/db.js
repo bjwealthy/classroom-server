@@ -2,16 +2,16 @@
 import mysql from 'mysql';
 
 const con = mysql.createConnection({
-//     host: 'localhost',
-//     user: 'root',
-//     password: '',
-//     database: 'studentms'
-// })
+    //     host: 'localhost',
+    //     user: 'root',
+    //     password: '',
+    //     database: 'studentms'
+    // })
 
-host: 'classroom-bjwealthy-classroom.g.aivencloud.com',
-user: 'avnadmin',
-password: 'AVNS_eJM3jK18_Jnu5vZzeLV',
-database: 'defaultdb'
+    host: 'classroom-bjwealthy-classroom.g.aivencloud.com',
+    user: 'avnadmin',
+    password: 'AIVEN_SECRET',
+    database: 'defaultdb'
 })
 
 con.connect(function(err){
