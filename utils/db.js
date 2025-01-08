@@ -10,7 +10,7 @@ const con = mysql.createConnection({
 
     host: 'classroom-bjwealthy-classroom.g.aivencloud.com',
     user: 'avnadmin',
-    password: 'AIVEN_SECRET',
+    password: 'AVNS_eJM3jK18_Jnu5vZzeLV',
     database: 'defaultdb'
 })
 
