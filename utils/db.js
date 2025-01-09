@@ -6,10 +6,6 @@ const con = mysql.createConnection({
     user: 'root',
     password: '',
     database: 'studentms'
-    // host: 'classroom-bjwealthy-classroom.g.aivencloud.com',
-    // user: 'avnadmin',
-    // password: 'AVNS_eJM3jK18_Jnu5vZzeLV',
-    // database: 'defaultdb'
 })
 
 con.connect(function(err){
