@@ -1,4 +1,3 @@
-
 import mysql from 'mysql';
 
 const con = mysql.createConnection({
