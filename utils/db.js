@@ -14,8 +14,8 @@ import mysql from 'mysql';
 //     database: 'freedb_bjwealthy-classroom-db'
 
     var con = mysql.createConnection({
-        host: 'dpg-cu547oggph6c73dtls7g-a',
-        port: '543',
+        host: 'postgresql://classroompgsql_user:0o4Rm4IxXTQzdswcPNe9zvY1SyQBllrz@dpg-cu547oggph6c73dtls7g-a/classroompgsql',
+        port: '5432',
         database: 'classroompgsql',
         user: 'classroompgsql_user',
         password: '0o4Rm4IxXTQzdswcPNe9zvY1SyQBllrz'
