@@ -8,6 +8,7 @@ import path from 'path'
 const router = express.Router()
 
 router.post('/studentlogin', (req, res) => {
+    alert('hi');
     const sql = "SELECT * FROM student WHERE email = ? AND class_id = ?"
     con.query(sql, [req.body.email, req.body.class_id], (err, result) => {
         if (err) return res.json({ loginStatus: false, Error: "Login Query Error" })
